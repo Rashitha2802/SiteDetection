@@ -3,7 +3,7 @@
 **Author:** Rashitha Ashraf M  
 **Project Type:** Web-based Phishing & Malicious URL Detection using Machine Learning  
 **Technologies:** Python, Flask, scikit-learn, pandas, whois, HTML, CSS  
-**Status:** ✅ Completed – Ready for demonstration and deployment
+**Status:**  Completed – Ready for demonstration and deployment
 
 ---
 
@@ -18,10 +18,10 @@ It uses **machine learning** with a `Random Forest` classifier trained on URLs e
 
 ---
 
-## 🧠 Features
+##  Features
 
-- 🔍 **Domain Age Analysis:** Uses WHOIS lookup to calculate the domain age in days.
-- 🔢 **Feature Extraction:** Uses:
+- **Domain Age Analysis:** Uses WHOIS lookup to calculate the domain age in days.
+- **Feature Extraction:** Uses:
   - URL length  
   - Presence of HTTPS  
   - Use of "@" symbol  
@@ -31,15 +31,15 @@ It uses **machine learning** with a `Random Forest` classifier trained on URLs e
   - Presence of IP address  
   - URL entropy  
   - Domain age
-- 🧠 **ML Classifier:** Trained Random Forest model with 90%+ accuracy.
-- 🌐 **User-friendly UI:** Clean interface to enter URLs and view detection results.
-- 💬 **Clear Output:**
+- **ML Classifier:** Trained Random Forest model with 90%+ accuracy.
+- **User-friendly UI:** Clean interface to enter URLs and view detection results.
+- **Clear Output:**
   - ✅ Benign Site
   - ⚠️ Malicious/Phishing Site Detected
 
 ---
 
-## 🔁 Flow of Execution
+## Flow of Execution
 
 1. User inputs a URL via the homepage.
 2. `utils.py` extracts features from the URL.
@@ -50,7 +50,7 @@ It uses **machine learning** with a `Random Forest` classifier trained on URLs e
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 Fake-Site-Detector/
 ├── app.py # Flask app for routing and prediction
