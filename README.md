@@ -62,3 +62,19 @@ python-whois
 joblib
 
 urllib3
+
+Notes
+Domain age lookup via WHOIS can be slow or blocked for private domains.
+
+The model classifies URLs into only two classes: benign and malicious.
+
+Future Enhancements
+Multi-class classification (e.g., suspicious, phishing, malware)
+
+Deep learning-based models
+
+URL screenshot and content analysis
+
+Real-time threat intelligence APIs
+
+User login system to track URL history
