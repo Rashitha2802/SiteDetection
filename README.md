@@ -1,6 +1,6 @@
 # 🛡️ Fake Site Detector
 
-**Author:** Rashitha Ashraf M  
+**Author:** Rashitha Ashraf 
 **Project Type:** Web-based Phishing & Malicious URL Detection using Machine Learning  
 **Technologies:** Python, Flask, scikit-learn, pandas, whois, HTML, CSS  
 **Status:**  Completed – Ready for demonstration and deployment
@@ -51,22 +51,7 @@ It uses **machine learning** with a `Random Forest` classifier trained on URLs e
 ---
 
 ## Project Structure
-
-Fake-Site-Detector/
-├── app.py # Flask app for routing and prediction
-├── model_train.py # Script to train the ML model and save it
-├── generate_url_dataset.py # Generates dataset with WHOIS-based domain age
-├── utils.py # Extracts URL-based features
-├── model/
-│ ├── model.pkl # Saved Random Forest model
-│ └── url_dataset_final.csv # Generated dataset
-├── templates/
-│ ├── index.html # Input form
-│ └── result.html # Result display page
-├── static/
-│ └── style.css # CSS styling
-├── requirements.txt # Dependencies list
-└── README.md # You are here
+![image](https://github.com/user-attachments/assets/efe13a07-4dbb-4894-ba63-c619e886cb35)
 
 Create Virtual Environment
 bash
