@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Detection Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="container">
+    <h1>Result for URL:</h1>
+    <p><a href="{{ url }}" target="_blank">{{ url }}</a></p>
+    <div class="result-box">{{ result }}</div>
+    {% if domain_age and domain_age != -1 %}
+      <p class="domain-age">Domain Age: {{ domain_age }} days</p>
+    {% endif %}
+    <a href="/">Try another URL</a>
+  </div>
+</body>
+</html>
